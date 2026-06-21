@@ -5,7 +5,6 @@ data/
 .env
 
 # Python virtual environment
-venv/
 env/
 .venv/
 ENV/
