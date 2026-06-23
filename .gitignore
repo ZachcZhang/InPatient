@@ -1,7 +1,13 @@
 # Data files
-data/
+output/
+!*.py
+*.parquet
+*.gz
+# MIMIC-derived outputs (PhysioNet DUA: do NOT commit / share)
+plan/data_processing/output/
+*.duckdb
 
-# Environment variables
+# Environment variables∑
 .env
 
 # Python virtual environment
